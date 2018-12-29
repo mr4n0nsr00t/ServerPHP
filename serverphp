@@ -1,9 +1,12 @@
 #!/bin/bash
 clear
 sleep 1
+
 echo "##############################"
 echo "#  Created By Mr 4n0nsr00t   #"
-echo "#                            #"
+echo "#    Security Darknet        #"
+echo "#     Santri Salafy Cyber    #"
+echo "##############################"
 echo "# 01 Server PHP Martabak SQL #"
 echo "# 02 PHP Server              #"
 echo "##############################"
