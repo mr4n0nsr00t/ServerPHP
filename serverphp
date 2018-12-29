@@ -29,6 +29,7 @@ fi
 
 if [ $n = 02 ] || [ $n = 2 ];then
 clear
+termux-setup-storage
 echo "<=====[ Info ]=====>"
 echo "Nama Server: 127.0.0.1:8080"
 echo "Ketik CTRL+C untuk exit atau menghentikannya"
