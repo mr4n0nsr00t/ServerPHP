@@ -1,16 +1,17 @@
 #!/bin/bash
 clear
 sleep 1
-
 echo "##############################"
 echo "#  Created By Mr 4n0nsr00t   #"
-echo "#    Security Darknet        #"
-echo "#     Santri Salafy Cyber    #"
-echo "##############################"
+echo "#                            #"
 echo "# 01 Server PHP Martabak SQL #"
 echo "# 02 PHP Server              #"
+echo "# 03 CSRF ONlINE             #"
 echo "##############################"
-sleep 1
+echo "#    Santri Salafy Cyber     #"
+echo "#    Security Darknet        #"
+echo "##############################"
+
 read -p "Pilih_Nomor~#/ " n;
 
 
@@ -19,6 +20,7 @@ clear
 pkg install php
 clear
 pkg install curl
+clear
 curl -LO https://pastebin.com/raw/YWXp5HR7
 mv YWXp5HR7 martabak.php
 clear
@@ -39,5 +41,20 @@ echo "Ketik CTRL+C untuk exit atau menghentikannya"
 read -p "Tempat_Menyimpan~#/ " s;
 read -p "Nama_File~#/ " f;
 cd $s
-php -S 127.0.0.1:8080 $f 
+php -S 127.0.0.1:8080 $f
+fi
+
+if [ $n = 03 ] || [ $n = 3 ];then
+pkg install curl
+clear
+pkg install php
+clear
+curl -LO https://pastebin.com/raw/1eftY8Pq
+clear
+echo "<=====[ Info ]=====>"
+echo "Nama Server: 127.0.0.1:8080"
+echo "Ketik CTRL+C untuk exit atau
+menghentikan"
+mv 1eftY8Pq csrf.php
+php -S 127.0.0.1:8080 csrf.php
 fi
