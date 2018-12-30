@@ -9,3 +9,4 @@ Kegunaannya cuma sebagai Server PHP Cara Menggunakannya
 Nomor 1 Martabak Auto Inject (SQL) punya bang Cy#b3r00T 
 Nomor 2 Nama Tempat Menyimpan Filenya contoh saya menyimpan file.php di /storage/emulated/0/Download 
 Nama filenya contoh martabak.php (filenya harus berbentuk php)
+Nomor 3 CSRF ONLINE punya IndoXploit
