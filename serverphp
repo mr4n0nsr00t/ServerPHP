@@ -70,4 +70,6 @@ mv efCRvgFZ xampp.php
 clear
 echo "<=====[ Info ]=====>"
 echo "Nama Server: 127.0.0.1:8080"
-echo "Ketik CTRL+C untuk exit atau
+echo "Ketik CTRL+C untuk exit atau menghentikan
+php -S 127.0.0.1:8080 xampp.php
+fi
